@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    
+   
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+header{
+    display:flex;
+    background-color:#4c4c4c;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.icones{
+    display: flex;
+    align-items: center;
+}
+.icones ul{
+    display: flex;
+    
+}
+.icones img{
+    width: 50px;
+    height: 50px;
+}
+section{
+    display: flex;
+    background-color: rgb(26, 143, 141);
+    height: calc(50vh - 37px);
+    width: 980px;
+    
+    
+   
+    
+}
+.apresent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+    height: 100%;
+    
+    
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 300;
+    
+    font-size: 18px;
+}
+.titulo{
+    font-size: 2.3rem;
+    font-family:sans-serif;
+
+}
+.video{
+    display: flex;
+    width: 380px;
+    height: 300;
+    margin-right: 10px;
+    
+   
+}
+aside{
+    display: flex;
+    
+    height:calc(50vh - 37px);
+    width: 980px;
+    margin-top:50px;
+}
+.imgem{
+    display: flex;
+    color:aliceblue;font-size: 40px;
+    align-items: center;
+}
+.imgem img{
+    height: 100%;
+}
+button{
+    margin-top: 40px;
+    background-color: rgb(11, 129, 96);
+    padding-left: 17px;
+    padding-right:17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   
+}
+button img{
+    height: 25px;
+    width: 25px;
+    
+}
+aside{
+    display: flex;
+    justify-content: center;
+    
+}
+.msgs{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.msg_central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.msgcreat{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.c1{
+    font-size:2.3rem;
+    text-align: center;
+    
+
+}
+.dv{
+    flex:1;
+    margin:5px;
+    text-align: center;
+    
+}
+
+.dv img{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+.dv a{
+    text-decoration:none;
+    color:inherit;
+}
